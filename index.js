@@ -15,7 +15,9 @@ let livrosCarolinaMaria = [
     {nome:"Casa de Alvenaria", autora: "Carolina Maria de Jesus"},
     {nome:"Pedaços de Fome", autora: "Carolina Maria de Jesus"},
     {nome:"Proverbios", autora: "Carolina Maria de Jesus"},
-    {nome:"Diário de Bibita", autora: "Carolina Maria de Jesus"}
+    {nome:"Diário de Bibita", autora: "Carolina Maria de Jesus"},
+    {nome:"Antologia Pessoal", autora:"Carolina maria de Jeusus"},
+    {nome:"Onde estaes felicidades?", autora:"Carolina Maria de Jesus"},
 ]
 
 let livrosMulheresNegras = [
@@ -24,6 +26,8 @@ let livrosMulheresNegras = [
     {nome:"Somos todas rainhas", autora: "Gisele Cristina dos Anjos"},
     {nome:"Não sou eu uma mulher", autora: "Bell Hooks"},
     {nome:"Lugar de negro", autora: "Lélia Gonzalez, Carlos Hasenbalg"},
+    {nome: "Enegrecendo o Feminismo ou Feminizando a Raça", autora: " Angela Davis e Lélia Gonzalez"},
+    {nome: "Mulheres Negras: um Olhar sobre as Lutas Sociais e as Políticas Públicas no Brasil", autora: "Jurema Werneck"}
 ]
 
 app.get('/matrizes', (req, res)=>{
